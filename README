@@ -1,0 +1,9 @@
+a collection of sass files I use in all projects
+
+Thanks to:
+
+Eric Meyer for the css reset
+http://meyerweb.com/eric/tools/css/reset/index.html
+
+Adam Darowski for border radius and drop shaddow mixins - 
+http://tech.patientslikeme.com/2010/09/10/deconstructing-my-favorite-sass-mixin/

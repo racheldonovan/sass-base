@@ -1,0 +1,26 @@
+=opacity(!opacity)
+  :filter alpha(opacity= !opacity * 100)
+  :-moz-opacity = !opacity
+  :-khtml-opacity = !opacity
+  :opacity = !opacity
+  
+=border_radius(!radius)
+  -moz-border-radius = "#{!radius}"
+  -webkit-border-radius = "#{!radius}"
+  border-radius = "#{!radius}"
+
+=box_shadow(!color, !values)
+  -webkit-box-shadow = "#{!color} #{!values}"
+  -moz-box-shadow = "#{!color} #{!values}"
+  box-shadow = "#{!color} #{!values}"
+  
+=clearfix
+  :overflow auto
+  :overflow -moz-scrollbars-none
+  :display inline-block
+  &amp;
+    :display block
+    
+=no_margin_or_padding
+  :margin 0
+  :padding 0
